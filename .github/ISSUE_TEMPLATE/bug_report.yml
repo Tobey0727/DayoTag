@@ -1,0 +1,83 @@
+name: Bug 反馈
+description: 反馈可复现的 App、连接、同步或设备问题
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。请先删除 API Key、原始录音、完整转写、配对码和设备唯一标识。
+        安全或隐私漏洞请不要提交公开 Issue，改用 SECURITY.md 中的邮箱。
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: 问题类型
+      options:
+        - APK 安装或启动
+        - 蓝牙发现、绑定或认证
+        - 音频同步或后台恢复
+        - Today、Memory、Agent 或 Skill
+        - 壁纸同步
+        - 固件 OTA
+        - 其他
+    validations:
+      required: true
+
+  - type: input
+    id: app_version
+    attributes:
+      label: App 版本
+      placeholder: 例如 1.0.0
+    validations:
+      required: true
+
+  - type: input
+    id: firmware_version
+    attributes:
+      label: 固件版本
+      placeholder: 不涉及设备时填写“不适用”
+    validations:
+      required: true
+
+  - type: input
+    id: phone
+    attributes:
+      label: 手机与 Android 版本
+      placeholder: 例如 Xiaomi 15 / Android 16
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 请按发生顺序写清楚操作。
+      placeholder: |
+        1. 打开……
+        2. 点击……
+        3. 出现……
+    validations:
+      required: true
+
+  - type: textarea
+    id: result
+    attributes:
+      label: 实际结果与预期结果
+    validations:
+      required: true
+
+  - type: textarea
+    id: frequency
+    attributes:
+      label: 发生频率与补充信息
+      description: 请说明是否稳定复现；可以附已脱敏截图或日志。
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 我已确认本 Issue 不包含 API Key、原始录音、完整转写、配对码、设备唯一标识或他人隐私。
+          required: true

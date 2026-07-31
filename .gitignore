@@ -1,0 +1,23 @@
+# APK and firmware binaries are distributed through GitHub Releases.
+*.apk
+*.aab
+*.bin
+*.pkg
+*.zip
+
+# Signing material and secrets must never enter the repository.
+*.keystore
+*.jks
+*.pem
+*.p12
+*.key
+.env
+.env.*
+
+# Local and generated files.
+.DS_Store
+checks/
+tmp/
+dist/
+node_modules/
+

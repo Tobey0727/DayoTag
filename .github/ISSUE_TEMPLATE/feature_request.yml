@@ -1,0 +1,45 @@
+name: 功能建议
+description: 建议新的 Skill、卡片、壁纸或使用体验
+title: "[建议] "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: user
+    attributes:
+      label: 谁会使用
+      description: 请描述目标用户，不需要提供真实姓名。
+    validations:
+      required: true
+
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景
+      description: 什么时候会遇到这个问题，现在如何解决？
+    validations:
+      required: true
+
+  - type: textarea
+    id: outcome
+    attributes:
+      label: 希望得到的结果
+      description: 请优先描述用户结果，不必先设计具体页面。
+    validations:
+      required: true
+
+  - type: textarea
+    id: privacy
+    attributes:
+      label: 涉及的数据与权限
+      description: 例如录音、位置、人物关系、长期记忆、网络或设备控制。
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: 提交确认
+      options:
+        - label: 我没有在建议中提交真实录音、API Key、完整转写或他人隐私。
+          required: true
