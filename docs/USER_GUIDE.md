@@ -12,11 +12,13 @@
 - 足够的手机存储空间。
 - 如果使用云端模型：可用网络、模型账号和自己的 API Key。
   
-  火山ASRkey获取方式：https://docs.volcengine.com/docs/6561/2485392
+  火山ASRkey获取方式（建议填写提升效果）：https://docs.volcengine.com/docs/6561/2485392
   
   豆包大模型key获取地址：https://ark.volcengine.com/overview
   
   MiMo大模型key获取地址：https://mimo.mi.com/docs/zh-CN/quick-start
+
+  Deepseek大模型key获取地址：https://api-docs.deepseek.com/zh-cn/
 
 当前没有 iOS 安装包。
 
