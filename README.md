@@ -81,17 +81,15 @@ DayoTag 的低功耗彩色屏不只是状态显示，也是属于你的个性化
 
 ## 联系与交流
 
-- **微信交流群：** `DayoTag`
+- **微信 / 飞书交流群：** 扫描下方对应二维码，加入 `DayoTag` 交流群。
 - **联系邮箱：** `dayotag0728@gmail.com`
 - **问题反馈与功能建议：** [GitHub Issues](https://github.com/Tobey0727/DayoTag/issues)
 
-<p align="center">
-  <strong>飞书交流群</strong>
-  <br>
-  使用飞书扫描下方二维码加入
-  <br><br>
-  <img src="assets/readme/dayotag-feishu-community-qr.png" width="260" alt="DayoTag 飞书交流群二维码">
-</p>
+| 微信交流群 | 飞书交流群 |
+| :---: | :---: |
+| <img src="assets/readme/dayotag-wechat-community-qr.jpg" width="240" alt="DayoTag 微信交流群二维码"><br>使用微信扫描加入 | <img src="assets/readme/dayotag-feishu-community-qr.png" width="240" alt="DayoTag 飞书交流群二维码"><br>使用飞书扫描加入 |
+
+欢迎交流复刻经验、使用体验和功能建议。如果群已满或二维码无法使用，请添加微信号 `DayoTag`，由管理员邀请入群。
 
 **开源说明：** DayoTag 是一个 AI 硬件开源项目。硬件资料在[嘉立创开源硬件平台](https://oshwhub.com/eda_kqtkoxdx/project_bpeoomns)按项目页所列协议开放；Android APK 与设备固件通过 GitHub Releases 免费提供。
 
